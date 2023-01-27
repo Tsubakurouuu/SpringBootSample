@@ -7,8 +7,9 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class HelloRepository {
+	
 	@Autowired
-	private JdbcTemplate jbdcTemplate;
+	private JdbcTemplate jdbcTemplate;
 	
 	public Map<String, Object> findById(String id) {
 		
